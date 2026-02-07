@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #0a1f3e;
+  --ocean-blue: #1e5a8e;
+  --light-blue: #2d8bc9;
+  --gold: #d4af37;
+  --white: #ffffff;
+  --dark-gray: #1a1a1a;
+  --light-gray: #f5f5f5;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  line-height: 1.6;
+}
+
+.app { width: 100%; overflow-x: hidden; }
+
+.header {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--ocean-blue) 100%);
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  color: var(--gold);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  color: var(--gold);
+  background-color: rgba(212, 175, 55, 0.1);
+}
+
+.language-select {
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  border: 2px solid var(--gold);
+  background-color: var(--primary-blue);
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-select:hover {
+  background-color: var(--ocean-blue);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.hero {
+  height: 600px;
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--ocean-blue) 50%, var(--light-blue) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 300;
+}
+
+.cta-button {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, var(--gold) 0%, #f0c860 100%);
+  color: var(--primary-blue);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(212, 175, 55, 0.6);
+}
+
+.tours-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, var(--light-gray) 0%, var(--white) 100%);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-header h2 {
+  font-size: 3rem;
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.section-subtitle {
+  font-size: 1.3rem;
+  color: var(--ocean-blue);
+  font-weight: 500;
+}
+
+.tours-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.tour-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--gold);
+  position: relative;
+  overflow: hidden;
+}
+
+.tour-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.tour-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.tour-title {
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.tour-time {
+  color: var(--ocean-blue);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.tour-preview {
+  color: var(--dark-gray);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.tour-details {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--light-gray);
+}
+
+.detail-section {
+  margin-bottom: 1.5rem;
+}
+
+.detail-section h4 {
+  color: var(--ocean-blue);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.detail-section p {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.book-button {
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(135deg, var(--ocean-blue) 0%, var(--light-blue) 100%);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.book-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(30, 90, 142, 0.3);
+}
+
+.expand-indicator {
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.activities-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--ocean-blue) 100%);
+  color: var(--white);
+}
+
+.activities-section .section-header h2 {
+  color: var(--gold);
+}
+
+.activities-section .section-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.activities-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.activity-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--gold);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+}
+
+.activity-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.activity-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.activity-card p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+
+.footer {
+  background: var(--primary-blue);
+  color: var(--white);
+  padding: 3rem 2rem 1rem;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+  color: var(--gold);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer-section p {
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-section a {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: var(--gold);
+  padding-left: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0.5rem 1rem !important;
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: var(--gold);
+  color: var(--primary-blue) !important;
+  padding-left: 1rem !important;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .header-container { flex-wrap: wrap; gap: 1rem; }
+  .logo h1 { font-size: 1.4rem; }
+  .nav { gap: 1rem; order: 3; width: 100%; }
+  .nav a { font-size: 0.9rem; padding: 0.4rem 0.8rem; }
+  .hero-title { font-size: 2.5rem; }
+  .hero-subtitle { font-size: 1.1rem; }
+  .section-header h2 { font-size: 2rem; }
+  .tours-grid { grid-template-columns: 1fr; }
+  .activities-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .header-container { padding: 0 1rem; }
+  .hero { height: 400px; }
+  .hero-title { font-size: 1.8rem; }
+  .hero-subtitle { font-size: 0.95rem; }
+  .cta-button { padding: 0.8rem 1.5rem; font-size: 0.9rem; }
+  .section-header h2 { font-size: 1.5rem; }
+  .tour-title { font-size: 1.2rem; }
+  .activity-icon { font-size: 2.5rem; }
+}
