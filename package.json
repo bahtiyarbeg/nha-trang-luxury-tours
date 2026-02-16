@@ -2,7 +2,7 @@
   "name": "nha_trang_luxury_tours",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://manus-ai.github.io/nha-trang-luxury-tours/",
+  "homepage": "https://bahtiyarbeg.github.io/nha-trang-luxury-tours/",
   "type": "module",
   "scripts": {
     "dev": "vite",
