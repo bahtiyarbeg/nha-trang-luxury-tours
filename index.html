@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nha Trang Luxury Tours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">🌊 Nha Trang Tours</div>
+            <div class="language-selector">
+                <button class="lang-btn active" onclick="setLanguage('en')">English</button>
+                <button class="lang-btn" onclick="setLanguage('ru')">Русский</button>
+                <button class="lang-btn" onclick="setLanguage('tr')">Türkçe</button>
+                <button class="lang-btn" onclick="setLanguage('ko')">한국어</button>
+                <button class="lang-btn" onclick="setLanguage('zh')">中文</button>
+                <button class="lang-btn" onclick="setLanguage('fr')">Français</button>
+                <button class="lang-btn" onclick="setLanguage('vi')">Tiếng Việt</button>
+                <button class="lang-btn" onclick="setLanguage('uz')">O'zbekcha</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" id="hero-title">Discover Paradise in Nha Trang</h1>
+            <p class="hero-subtitle" id="hero-subtitle">Experience luxury tours and unforgettable adventures</p>
+            <button class="cta-button" id="cta-button">Explore Tours</button>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section class="tours-section">
+        <div class="container">
+            <h2 class="section-title" id="section-title">Our Exclusive Tours</h2>
+            <div class="tours-grid" id="tours-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 id="contact-title">Contact</h3>
+                <p>📞 +84 342 134 941</p>
+                <p>📧 tourvietn@gmail.com</p>
+                <p>💬 WhatsApp: +84 777 770 750</p>
+            </div>
+            <div class="footer-section">
+                <h3 id="hours-title">Hours</h3>
+                <p id="hours-text">Daily 8:00 AM - 6:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h3 id="location-title">Location</h3>
+                <p id="location-text">Nha Trang, Vietnam</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nha Trang Luxury Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
