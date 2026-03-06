@@ -24,47 +24,110 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title" id="hero-title">Discover Paradise in Nha Trang</h1>
-            <p class="hero-subtitle" id="hero-subtitle">Experience luxury tours and unforgettable adventures</p>
-            <button class="cta-button" id="cta-button">Explore Tours</button>
-        </div>
-    </section>
+    <!-- Main Page -->
+    <div id="main-page">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-title">Discover Paradise in Nha Trang</h1>
+                <p class="hero-subtitle" id="hero-subtitle">Experience luxury tours and unforgettable adventures</p>
+                <button class="cta-button" id="cta-button">Explore Tours</button>
+            </div>
+        </section>
 
-    <!-- Tours Section -->
-    <section class="tours-section">
-        <div class="container">
-            <h2 class="section-title" id="section-title">Our Exclusive Tours</h2>
-            <div class="tours-grid" id="tours-grid"></div>
-        </div>
-    </section>
+        <!-- Tours Section -->
+        <section class="tours-section">
+            <div class="container">
+                <h2 class="section-title" id="section-title">Our Exclusive Tours</h2>
+                <div class="tours-grid" id="tours-grid"></div>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3 id="contact-title">Contact</h3>
-                <p>📱 WhatsApp/Viber/WeChat: +84 777 770 759</p>
-                <p>📞 Phone 1: +84 778 532 223</p>
-                <p>📞 Phone 2: +84 777 770 759</p>
-                <p>📞 Phone 3: +84 342 134 941</p>
-                <p>📧 Email: tourvietn@gmail.com</p>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 id="contact-title">Contact</h3>
+                    <p>📱 WhatsApp/Viber/WeChat: +84 777 770 759</p>
+                    <p>📞 Phone 1: +84 778 532 223</p>
+                    <p>📞 Phone 2: +84 777 770 759</p>
+                    <p>📞 Phone 3: +84 342 134 941</p>
+                    <p>📧 Email: tourvietn@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3 id="hours-title">Hours</h3>
+                    <p id="hours-text">Daily 06:00 AM — 23:00 PM (ICT)</p>
+                </div>
+                <div class="footer-section">
+                    <h3 id="location-title">Location</h3>
+                    <p id="location-text">Nha Trang, Vietnam</p>
+                </div>
             </div>
-            <div class="footer-section">
-                <h3 id="hours-title">Hours</h3>
-                <p id="hours-text">Daily 06:00 AM — 23:00 PM (ICT)</p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nha Trang Luxury Tours. All rights reserved.</p>
             </div>
-            <div class="footer-section">
-                <h3 id="location-title">Location</h3>
-                <p id="location-text">Nha Trang, Vietnam</p>
+        </footer>
+    </div>
+
+    <!-- Tour Detail Page -->
+    <div id="tour-detail-page" class="tour-detail-page hidden">
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="back-btn" onclick="backToMain()">← Back</button>
+                <div class="language-selector">
+                    <button class="lang-btn active" onclick="setLanguage('en')">English</button>
+                    <button class="lang-btn" onclick="setLanguage('ru')">Русский</button>
+                    <button class="lang-btn" onclick="setLanguage('tr')">Türkçe</button>
+                    <button class="lang-btn" onclick="setLanguage('ko')">한국어</button>
+                    <button class="lang-btn" onclick="setLanguage('zh')">中文</button>
+                    <button class="lang-btn" onclick="setLanguage('fr')">Français</button>
+                    <button class="lang-btn" onclick="setLanguage('vi')">Tiếng Việt</button>
+                    <button class="lang-btn" onclick="setLanguage('uz')">O'zbekcha</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="tour-detail-container">
+            <div class="tour-detail-content">
+                <h1 id="detail-title" class="detail-title"></h1>
+                <span id="detail-time" class="detail-time"></span>
+
+                <section class="detail-section">
+                    <h2 id="detail-desc-label">Description</h2>
+                    <p id="detail-description" class="detail-description"></p>
+                </section>
+
+                <section class="detail-section">
+                    <h2 id="detail-schedule-label">Schedule</h2>
+                    <p id="detail-schedule" class="detail-schedule"></p>
+                </section>
+
+                <div class="detail-grid">
+                    <section class="detail-section">
+                        <h2 id="detail-included-label">Included</h2>
+                        <p id="detail-included" class="detail-text"></p>
+                    </section>
+
+                    <section class="detail-section">
+                        <h2 id="detail-notincluded-label">Not Included</h2>
+                        <p id="detail-notincluded" class="detail-text"></p>
+                    </section>
+
+                    <section class="detail-section">
+                        <h2 id="detail-bring-label">What to Bring</h2>
+                        <p id="detail-bring" class="detail-text"></p>
+                    </section>
+                </div>
+
+                <div class="contact-section">
+                    <h2 id="contact-label">Contact Us</h2>
+                    <p>📱 WhatsApp: +84 777 770 759</p>
+                    <p>📧 Email: tourvietn@gmail.com</p>
+                    <p id="booking-text">Ready to book? Contact us today!</p>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Nha Trang Luxury Tours. All rights reserved.</p>
-        </div>
-    </footer>
+    </div>
 
     <script src="translations.js"></script>
     <script src="app.js"></script>
