@@ -1,0 +1,219 @@
+  "en": {
+    "header": "Nha Trang Tours",
+    "selectLanguage": "Select Language",
+    "toursTitle": "Our Tours",
+    "contact": "Contact",
+    "tours": {
+      "fuyen": {
+        "title": "Fuyen — Wild and Undiscovered Vietnam",
+        "time": "05:00 – 20:00",
+        "shortDesc": "One of the most beautiful destinations in Central Vietnam without mass tourism",
+        "fullDesc": "Fuyen is one of the most beautiful and least known destinations in Central Vietnam. There is no mass tourism here. This is a land of wild nature, endless beaches and rocky cliffs.\n\nPerfect tour for those who want to see real Vietnam, feel freedom and the power of nature.\n\nWhat awaits you on the tour:\n• Cape Dai Lanh (Mũi Điện) — the easternmost point of mainland Vietnam\n• Ganh Da Dia Reef (Gành Đá Đĩa) — unique natural formation of basalt columns\n• Bai Mon Beach — pristine water, soft sand and almost no tourists\n• Ong Cop Wooden Bridge — picturesque bridge with stunning views\n• O Loan Lagoon — quiet lagoon with seafood and authentic Vietnamese atmosphere",
+        "schedule": "05:00–05:30 — Early departure from Nha Trang\n08:30 — Climb to the lighthouse on Cape Dai Lanh\n10:30 — Visit to Ganh Da Dia Reef\n12:00 — Lunch at local restaurant\n13:30 — Swimming and rest on Bai Mon Beach\n15:00 — O Loan Lagoon and Ong Cop Bridge\n17:00 — Departure back to Nha Trang\n19:30–20:00 — Return to hotel",
+        "included": "Transfer, entrance tickets, lunch, drinking water, guide",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, comfortable shoes, camera"
+      },
+      "doTheatre": {
+        "title": "Do Theatre — Life Puppets & Chum Show",
+        "time": "19:00 – 21:00",
+        "shortDesc": "Modern cultural and artistic space with unique shows",
+        "fullDesc": "Do Theatre is an unusual modern cultural and artistic space in Nha Trang that has become one of the brightest show places in the city. The theater combines impressive architecture with professional stage productions.\n\nHere are live music programs, dance performances, acrobatic acts and unique puppet shows.\n\nMain shows:\n• Life Puppets (Rối Mơ) — water puppet show with live music and lighting effects\n• Chum Show — artistic performance combining traditional dances and acrobatics\n\nEach show usually lasts 40–60 minutes depending on the production.",
+        "schedule": "18:30 — Arrival at theater\n19:00 — Seating by ticket\n19:00–20:00 — Main show\n20:00 — Photos in lobby\n21:00 — Return to hotel",
+        "included": "Entrance ticket, seat in theater, show program",
+        "notIncluded": "Food, drinks, photo/video",
+        "toBring": "Comfortable clothes, cash"
+      },
+      "emperorCruise": {
+        "title": "Emperor Cruise 5★ — Evening Yacht Cruise",
+        "time": "16:00 – 20:30",
+        "shortDesc": "Premium evening cruise on a luxury yacht with romantic dinner",
+        "fullDesc": "Emperor Cruise is a premium evening cruise on a luxurious 5★ yacht in Nha Trang Bay. Perfect for a romantic date, anniversary or just a beautiful evening in a luxury atmosphere.\n\nNha Trang Bay is considered one of the most picturesque places in Vietnam. You will see emerald water, endless horizon and stunning sunset over the sea.\n\nEvening program includes:\n• Transfer from hotel\n• Boarding on Emperor 5★ yacht\n• Welcome drink and canapes\n• Sea cruise\n• Live romantic music\n• 5-course dinner\n• Unlimited drinks\n• Return to hotel",
+        "schedule": "16:00 — Transfer from hotel\n16:30 — Boarding on Emperor 5★ yacht\n16:45 — Welcome drink\n17:00–18:30 — Sea cruise\n18:30–20:00 — Dinner and live music\n20:30 — Return to shore\n21:00 — Return to hotel",
+        "included": "5★ yacht cruise, welcome drink, canapes, 5-course dinner, unlimited drinks, live music, transfer",
+        "notIncluded": "Additional services, tips",
+        "toBring": "Elegant clothes, cash"
+      },
+      "vinpearl": {
+        "title": "Vinpearl Nha Trang — 1 Day / 2 Days Ticket + Hotel",
+        "time": "09:00 – 17:00",
+        "shortDesc": "Hon Tre Island — Vietnam's largest entertainment resort",
+        "fullDesc": "Hon Tre Island is Vietnam's largest entertainment resort. It features VinWonders park, cable car over the sea, water park, aquarium, shows and white sand beaches. You can choose a convenient format: 1-day ticket or 2-day/1-night hotel package.\n\nAttractions and entertainment:\n• VinWonders — amusement park with rides for all ages\n• Cable car over the sea — unique view of the bay\n• Water park — water slides and pools\n• Aquarium — marine animals and fish\n• Zoo — animals from around the world\n• Evening shows\n• White sand beach",
+        "schedule": "09:00 — Transfer to island\n09:30 — Cable car boarding\n10:00–17:00 — Free time in park\n17:00 — Return to mainland\n17:30 — Return to hotel",
+        "included": "Cable car, VinWonders entrance, all attractions, water park, aquarium, zoo, evening shows, beach",
+        "notIncluded": "Food, personal expenses, VIP services",
+        "toBring": "Swimsuit, towel, sunscreen, comfortable shoes"
+      },
+      "zenATV": {
+        "title": "Zen ATV + Zipline + Mountain River",
+        "time": "08:00 – 17:00",
+        "shortDesc": "Unique combination of adrenaline, wild nature and ancient temples",
+        "fullDesc": "ZEN TOUR is a unique combination of adrenaline, wild nature and the tranquility of ancient temples. In one day you will visit Buddhist pagoda Trúc Lâm, ride ATVs or zipline over the jungle, swim in a mountain river and relax at a natural waterfall.\n\nProgram includes:\n• Visit to Buddhist pagoda Trúc Lâm\n• ATV riding on mountain trails\n• Zipline over the jungle\n• Swimming in mountain river\n• Relaxation at natural waterfall\n• Lunch with mountain views",
+        "schedule": "08:00 — Departure from Nha Trang\n09:00 — Visit to pagoda Trúc Lâm\n10:00 — ATV riding or zipline\n12:00 — Lunch\n13:30 — Swimming in mountain river\n15:00 — Waterfall and rest\n16:00 — Return to Nha Trang\n17:00 — Return to hotel",
+        "included": "Transfer, lunch, drinking water, entrance tickets, visit to monastery, insurance, guide",
+        "notIncluded": "ATV/ZIPLINE (paid separately), personal expenses",
+        "toBring": "Change of clothes, swimsuit, towel, sunscreen, insect repellent, closed shoes"
+      },
+      "kongForest": {
+        "title": "Kong Forest — Extreme in the Jungle",
+        "time": "08:00 – 17:00",
+        "shortDesc": "Extreme entertainment park in Nha Trang jungle",
+        "fullDesc": "Kong Forest is an extreme entertainment park in Nha Trang's jungle. Zip lines, suspension bridges, rock climbing, swings over cliffs and free fall jumps among the trees.\n\nAttractions:\n• Zip lines of different lengths\n• Suspension bridges between trees\n• Rock climbing walls\n• Swings over cliffs\n• Free fall jumps\n• Rope courses\n• Obstacle courses",
+        "schedule": "08:00 — Departure from Nha Trang\n09:00 — Arrival at Kong Forest\n09:30 — Safety briefing\n10:00–15:00 — Active entertainment\n15:00 — Lunch\n16:00 — Return to Nha Trang\n17:00 — Return to hotel",
+        "included": "Entrance ticket, all attractions, insurance, guide, drinking water",
+        "notIncluded": "Transfer, lunch, additional services",
+        "toBring": "Sports clothes, closed shoes, towel"
+      },
+      "baHo": {
+        "title": "Ba Ho — Three Waterfalls and Mountain River",
+        "time": "07:00 – 17:00",
+        "shortDesc": "System of three waterfalls in Nha Trang mountains with crystal clear pools",
+        "fullDesc": "Ba Ho is a system of three waterfalls in the Nha Trang mountains. You will hike through the jungle, swim in crystal clear pools and enjoy the beauty of wild nature.\n\nProgram includes:\n• Hiking through the jungle\n• First waterfall with pool\n• Second waterfall with natural pool\n• Third waterfall and upper pool\n• Swimming in mountain river\n• Picnic in nature",
+        "schedule": "07:00 — Departure from Nha Trang\n08:00 — Arrival at Ba Ho\n08:30 — Start of hiking trail\n09:30 — First waterfall\n11:00 — Second waterfall\n12:30 — Lunch\n13:30 — Third waterfall\n15:00 — Return to Nha Trang\n17:00 — Return to hotel",
+        "included": "Transfer, guide, lunch, drinking water, entrance tickets",
+        "notIncluded": "Additional services, personal expenses",
+        "toBring": "Swimsuit, towel, closed shoes, sunscreen, insect repellent"
+      },
+      "robinson": {
+        "title": "Robinson Island — Robinson Island",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Secluded island with white sand and crystal clear water",
+        "fullDesc": "Robinson Island is a secluded island with white sand, crystal clear water and minimal tourists. Perfect for those seeking peace and natural beauty.\n\nIsland offers:\n• White sand beach\n• Crystal clear water\n• Snorkeling opportunities\n• Peaceful atmosphere\n• Hiking trails\n• Lunch with sea view",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Robinson Island\n09:30–15:00 — Free time on beach\n12:00 — Lunch\n15:00 — Departure from island\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "yangBay": {
+        "title": "Yang Bay — Waterfall and Jungle",
+        "time": "07:00 – 17:00",
+        "shortDesc": "Beautiful waterfall in the jungle with natural pools",
+        "fullDesc": "Yang Bay is a beautiful waterfall in the jungle with natural pools. You can swim in the mountain river, hike through the forest and enjoy wild nature.\n\nProgram includes:\n• Hiking through the jungle\n• Yang Bay Waterfall\n• Natural pools\n• Swimming in mountain river\n• Picnic in nature\n• Opportunity to meet local flora and fauna",
+        "schedule": "07:00 — Departure from Nha Trang\n08:00 — Arrival at Yang Bay\n08:30 — Start of hiking trail\n10:00 — Yang Bay Waterfall\n11:00 — Swimming\n12:30 — Lunch\n13:30 — Free time\n15:00 — Return to Nha Trang\n17:00 — Return to hotel",
+        "included": "Transfer, guide, lunch, drinking water, entrance tickets",
+        "notIncluded": "Additional services, personal expenses",
+        "toBring": "Swimsuit, towel, closed shoes, sunscreen, insect repellent"
+      },
+      "doiDep": {
+        "title": "Doi Dep Island — Beautiful Mountain Island",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Picturesque island with white beach and coral reefs",
+        "fullDesc": "Doi Dep Island is a picturesque island with white beach, coral reefs and peaceful atmosphere. Perfect for snorkeling and beach relaxation.\n\nIsland offers:\n• White sand beach\n• Coral reefs for snorkeling\n• Marine life observation\n• Peaceful atmosphere\n• Lunch on island\n• Hiking trails",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Doi Dep Island\n09:30–15:00 — Snorkeling and beach rest\n12:00 — Lunch\n15:00 — Departure from island\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide, snorkeling equipment",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "diepSon": {
+        "title": "Diep Son — Sand Bar and Three Islands",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Unique place where three islands are connected by a sand bar",
+        "fullDesc": "Diep Son is a unique place where three islands are connected by a sand bar. You can walk on the sand, swim in crystal clear water and enjoy panoramic views.\n\nProgram includes:\n• Walk on the sand bar\n• Visit three islands\n• Snorkeling in crystal clear water\n• Beach relaxation\n• Lunch on island\n• Panoramic photography",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Diep Son\n09:30–15:00 — Walk on bar and snorkeling\n12:00 — Lunch\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, comfortable shoes"
+      },
+      "miniBeach": {
+        "title": "Mini Beach — Elite Beach Relaxation",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Premium beach area with white sand and clear water",
+        "fullDesc": "Mini Beach is a premium beach area with white sand, clear water and peaceful atmosphere. Fewer tourists and more comfort than regular beaches.\n\nBeach offers:\n• White sand beach\n• Clear water\n• Peaceful atmosphere\n• Loungers and umbrellas\n• Snorkeling opportunities\n• Restaurant on beach",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Mini Beach\n09:30–15:00 — Beach rest and snorkeling\n12:00 — Lunch\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide, loungers",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "honMun": {
+        "title": "Hon Mun — Snorkeling in Marine Reserve",
+        "time": "08:00 – 14:30",
+        "shortDesc": "Main marine reserve of Nha Trang with live coral reefs",
+        "fullDesc": "Hon Mun is Nha Trang's main marine reserve with live coral reefs and rich marine ecosystem. Perfect for snorkeling and observing tropical fish.\n\nProgram includes:\n• Visit to marine reserve\n• Snorkeling over coral reefs\n• Marine life observation\n• Opportunity to meet turtles and fish\n• Lunch on island",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Hon Mun\n09:30–13:00 — Snorkeling\n12:00 — Lunch\n13:00 — Return to mainland\n14:30 — Return to hotel",
+        "included": "Transfer, boat, drinking water, entrance ticket, guide, snorkeling equipment",
+        "notIncluded": "Diving, water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "honMunMiniBeach": {
+        "title": "Hon Mun – Mini Beach — Snorkeling + Beach Relaxation",
+        "time": "08:00 – 16:30",
+        "shortDesc": "Snorkeling in marine reserve and relaxation on elite beach",
+        "fullDesc": "This tour combines active snorkeling in Hon Mun marine reserve and relaxation on Mini Beach. Best of both worlds: activity and relaxation.\n\nProgram includes:\n• Snorkeling in Hon Mun marine reserve\n• Observation of coral reefs\n• Relaxation on Mini Beach\n• Lunch on island\n• Opportunity to meet marine life",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Hon Mun\n09:30–11:30 — Snorkeling\n11:30 — Transfer to Mini Beach\n12:00 — Lunch\n13:00–16:00 — Beach rest\n16:00 — Departure\n16:30 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance tickets, guide, snorkeling equipment",
+        "notIncluded": "Water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "honMunHonTam": {
+        "title": "Hon Mun – Hon Tam — Snorkeling + Premium Relaxation",
+        "time": "08:00 – 16:30",
+        "shortDesc": "Snorkeling in marine reserve and relaxing time on island",
+        "fullDesc": "This tour combines active snorkeling in Hon Mun marine reserve and relaxing time on Hon Tam beach. Action and relaxation in one day.\n\nProgram includes:\n• Snorkeling in Hon Mun marine reserve\n• Observation of coral reefs\n• Relaxation on Hon Tam beach\n• Lunch on island\n• Opportunity to meet marine life",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Hon Mun\n09:30–11:30 — Snorkeling\n11:30 — Transfer to Hon Tam\n12:00 — Lunch\n13:00–16:00 — Beach rest\n16:00 — Departure\n16:30 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance tickets, guide, snorkeling equipment",
+        "notIncluded": "Water activities, alcoholic beverages, SPA",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "honTamNoMud": {
+        "title": "Hon Tam Without Mud — Comfortable Beach Relaxation",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Well-maintained resort island with pristine water and soft sand",
+        "fullDesc": "Hon Tam Island is a well-maintained resort island with pristine water and soft sand. Perfect for those who want a peaceful day by the sea without SPA procedures.\n\nIsland offers:\n• Well-maintained beach\n• Pristine water\n• Soft white sand\n• Loungers and umbrellas\n• Pool\n• Restaurant\n• Peaceful atmosphere",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Hon Tam\n09:30–15:00 — Beach rest\n12:00 — Lunch\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide, loungers, pool",
+        "notIncluded": "Mud baths, SPA, water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "honTamMud": {
+        "title": "Hon Tam With Mud Baths — Premium SPA Relaxation",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Island with modern SPA complex and mineral mud baths",
+        "fullDesc": "Hon Tam Island with a visit to a modern SPA complex with mineral mud baths. Perfect for relaxation and recovery. Mineral mud improves skin and relieves stress.\n\nProgram includes:\n• Beach relaxation\n• Mineral mud baths\n• Mineral pools\n• Lunch on island\n• Peaceful atmosphere\n• Opportunity for additional SPA procedures",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Hon Tam\n09:30–10:30 — Mud bath\n10:30–12:00 — Beach rest\n12:00 — Lunch\n13:00–15:00 — Mineral pools and rest\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance ticket, guide, mud bath, mineral pools, loungers",
+        "notIncluded": "Massage, additional SPA procedures, alcoholic beverages",
+        "toBring": "Swimsuit, towel, change of clothes, sunscreen, hat"
+      },
+      "fourIslands": {
+        "title": "4 Islands — Extended Sea Route",
+        "time": "08:00 – 16:30",
+        "shortDesc": "Intense version of classic route with four picturesque islands",
+        "fullDesc": "An intense version of the classic route. Visit four picturesque islands in Nha Trang Bay in one day. Combines active snorkeling, beach relaxation and full meal on island.\n\nProgram includes:\n• Visit to four picturesque islands\n• Snorkeling over coral reefs\n• Beach relaxation\n• Lunch on island\n• Marine life observation",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at first island\n09:30–11:30 — Snorkeling and beach rest\n11:30 — Transfer to second island\n12:00 — Lunch\n13:00–15:00 — Visit third and fourth islands\n15:00 — Departure\n16:30 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance tickets, guide, snorkeling equipment",
+        "notIncluded": "Water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "threeIslands": {
+        "title": "3 Islands — Classic Sea Day",
+        "time": "08:00 – 16:30",
+        "shortDesc": "Most popular and balanced sea route in Nha Trang",
+        "fullDesc": "One of the most popular and balanced sea routes in Nha Trang. Visit three picturesque islands, see coral reefs and spend time on equipped beaches.\n\nProgram includes:\n• Visit to three picturesque islands\n• Snorkeling over coral reefs\n• Beach relaxation\n• Lunch on island\n• Marine life observation",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at first island\n09:30–11:30 — Snorkeling and beach rest\n11:30 — Transfer to second island\n12:00 — Lunch\n13:00–15:00 — Visit third island\n15:00 — Departure\n16:30 — Return to hotel",
+        "included": "Transfer, boat, lunch, drinking water, entrance tickets, guide, snorkeling equipment",
+        "notIncluded": "Water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "nemoTrip": {
+        "title": "Nemo Trip — Sea Adventure with Fishing",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Bright sea tour with fishing, snorkeling and lunch on island",
+        "fullDesc": "Nemo Trip is a bright sea tour with fishing, snorkeling and lunch on island. Try yourself as a fisherman, see the underwater world and enjoy tropical island atmosphere.\n\nProgram includes:\n• Fishing in open sea\n• Snorkeling over coral reefs\n• Beach relaxation\n• Lunch on island\n• Opportunity to meet marine life",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Start of fishing\n11:00 — Snorkeling\n12:00 — Lunch\n13:30 — Beach rest\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Transfer, boat, fishing equipment, lunch, drinking water, entrance ticket, guide, snorkeling equipment",
+        "notIncluded": "Water activities, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses"
+      },
+      "miraeFuturePark": {
+        "title": "Mirae Future Park – Soi Beach — Future Park and Beach",
+        "time": "08:00 – 16:00",
+        "shortDesc": "Modern island complex with well-maintained beach and active entertainment",
+        "fullDesc": "Mirae Future Park is a modern island complex with well-maintained beach, active entertainment and comfortable infrastructure. Perfect for families, couples and groups. Clear turquoise water, equipped beach and entertainment program.\n\nProgram includes:\n• Beach relaxation\n• Foam Party\n• Inflatable entertainment\n• SUP boards\n• Lunch on island\n• Peaceful atmosphere",
+        "schedule": "08:00 — Departure from Nha Trang\n08:30 — Boat boarding\n09:00 — Arrival at Mirae Future Park\n09:30–12:00 — Active entertainment\n12:00 — Lunch\n13:00–15:00 — Beach rest\n15:00 — Departure\n16:00 — Return to hotel",
+        "included": "Entrance ticket, beach, loungers, swimming, Foam Party, inflatable entertainment, SUP boards, lunch, drinking water, guide",
+        "notIncluded": "Additional entertainment, alcoholic beverages",
+        "toBring": "Swimsuit, towel, sunscreen, hat, sunglasses, cash"
+      }
+    }
+  }
+};
